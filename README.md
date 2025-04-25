@@ -14,6 +14,7 @@ AND THIS REPOSITORY IS ALL ABOUT
  
 MODULE 1 --------
 STEP 1 ---------> DATA INGESTION 
+
 STEP 2 ---------> DATA TRANSFORMATION (SPLITING TEXT)
 
 #### Text Splitting from Documents- RecursiveCharacter Text Splitters
@@ -22,4 +23,11 @@ This text splitter is the recommended one for generic text. It is parameterized 
 - How the text is split: by list of characters.
 - How the chunk size is measured: by number of characters.
 
+
+
+#### How to split by character-Character Text Splitter
+This is the simplest method. This splits based on a given character sequence, which defaults to "\n\n". Chunk length is measured by number of characters.
+
+1. How the text is split: by single character separator.
+2. How the chunk size is measured: by number of characters.
 
