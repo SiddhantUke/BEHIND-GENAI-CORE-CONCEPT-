@@ -16,3 +16,10 @@ MODULE 1 --------
 STEP 1 ---------> DATA INGESTION 
 STEP 2 ---------> DATA TRANSFORMATION (SPLITING TEXT)
 
+#### Text Splitting from Documents- RecursiveCharacter Text Splitters
+This text splitter is the recommended one for generic text. It is parameterized by a list of characters. It tries to split on them in order until the chunks are small enough. The default list is ["\n\n", "\n", " ", ""]. This has the effect of trying to keep all paragraphs (and then sentences, and then words) together as long as possible, as those would generically seem to be the strongest semantically related pieces of text.
+
+- How the text is split: by list of characters.
+- How the chunk size is measured: by number of characters.
+
+
