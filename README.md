@@ -26,7 +26,7 @@ This text splitter is the recommended one for generic text. It is parameterized 
 
 
 #### How to split by character-Character Text Splitter
-This is the simplest method. This splits based on a given character sequence, which defaults to "\n\n". Chunk length is measured by number of characters.
+This is the simplest method. This splits based on a........................... given character sequence, which defaults to "\n\n". Chunk length is measured by number of characters.
 
 1. How the text is split: by single character separator.
 2. How the chunk size is measured: by number of characters.
@@ -39,4 +39,6 @@ https://python.langchain.com/docs/how_to/split_html/#overview-of-the-splitters
 before go with the practical implementation go through this ! 
 
 
+#### How to split with the json file.
 
+https://python.langchain.com/docs/how_to/recursive_json_splitter/
