@@ -30,9 +30,14 @@ This is the simplest method. This splits based on a........................... g
 
 1. How the text is split: by single character separator.
 2. How the chunk size is measured: by number of characters.
-
-
-
+.
+.
+.
+.
+.
+.
+.
+.
 #### How to Split with Html text splitter 
 
 https://python.langchain.com/docs/how_to/split_html/#overview-of-the-splitters
